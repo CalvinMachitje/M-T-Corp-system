@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Reports Management</h1>
+    <table class="table">
+        <thead><tr><th>Report</th><th>Date</th><th>Status</th></tr></thead>
+        <tbody><tr><td>ITR12</td><td>2025-07-31</td><td>Generated</td></tr></tbody>
+    </table>
+    <a href="{{ url_for('admin.dashboard') }}" class="btn btn-secondary">Back to Dashboard</a>
+{% endblock %}

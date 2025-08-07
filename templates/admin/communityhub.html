@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Community Hub Management</h1>
+    <table class="table">
+        <thead><tr><th>Program</th><th>Beneficiaries</th><th>Cost</th></tr></thead>
+        <tbody><tr><td>Training</td><td>100</td><td>R10K</td></tr></tbody>
+    </table>
+    <a href="{{ url_for('admin.dashboard') }}" class="btn btn-secondary">Back to Dashboard</a>
+{% endblock %}

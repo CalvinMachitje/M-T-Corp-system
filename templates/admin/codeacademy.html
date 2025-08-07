@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Code Academy Management</h1>
+    <table class="table">
+        <thead><tr><th>Student</th><th>Progress</th><th>Placement</th></tr></thead>
+        <tbody><tr><td>John</td><td>75%</td><td>Placed</td></tr></tbody>
+    </table>
+    <a href="{{ url_for('admin.dashboard') }}" class="btn btn-secondary">Back to Dashboard</a>
+{% endblock %}

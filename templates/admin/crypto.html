@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Crypto Management</h1>
+    <table class="table">
+        <thead><tr><th>Coin</th><th>Value</th><th>CGT</th></tr></thead>
+        <tbody><tr><td>BTC</td><td>R20M</td><td>R2M</td></tr></tbody>
+    </table>
+    <a href="{{ url_for('admin.dashboard') }}" class="btn btn-secondary">Back to Dashboard</a>
+{% endblock %}
